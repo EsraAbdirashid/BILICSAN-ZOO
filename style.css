@@ -87,15 +87,15 @@ body{
     margin-bottom: 30px;
 }
 
-.hero-buttons{
+/* .hero-buttons{
     display: flex;
     gap: 20px;
-}
+} */
 
-/* .explore-btn{
+.explore-btn{
     background-color: #1b5e20;
     color: white;
-} */
+}
 
 .buy-btn{
     background-color: white;
