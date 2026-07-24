@@ -81,16 +81,16 @@ body{
     color: #1b5e20;
 }
 
-.description{
+/* .description{
     font-size: 18px;
     color: #555;
     margin-bottom: 30px;
-}
+} */
 
-/* .hero-buttons{
+.hero-buttons{
     display: flex;
     gap: 20px;
-} */
+}
 
 .explore-btn{
     background-color: #1b5e20;
