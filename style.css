@@ -91,3 +91,9 @@ body{
     display: flex;
     gap: 20px;
 }
+
+.exp{
+    background-color: #1b5e20;
+    color: white;
+}
+
