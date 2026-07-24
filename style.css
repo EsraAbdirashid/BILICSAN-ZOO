@@ -92,8 +92,18 @@ body{
     gap: 20px;
 }
 
-.exp{
+.explore-btn{
     background-color: #1b5e20;
     color: white;
+}
+
+.buy-btn{
+    background-color: white;
+    border: 2px solid #1b5e20;
+}
+
+.hero-images{
+    width: 50px;
+    text-align: center;
 }
 
