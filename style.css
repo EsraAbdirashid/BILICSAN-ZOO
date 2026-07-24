@@ -87,3 +87,7 @@ body{
     margin-bottom: 30px;
 }
 
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+}
