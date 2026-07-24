@@ -53,3 +53,11 @@ body{
 .ticket-btn:hover{
     background-color: #145a1a;
 }
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background-color: #dff5dc;
+}
