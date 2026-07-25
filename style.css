@@ -111,6 +111,7 @@ body{
    border-radius: 12px;
    font-weight: 600;
    font-size: 17px;
+   cursor: pointer;
 }
 
 .buy-btn{
@@ -119,6 +120,7 @@ body{
    border-radius: 12px;
    font-weight: 600;
    font-size: 17px;
+   cursor: pointer;
 }
 
 .explore-btn{
@@ -137,7 +139,9 @@ body{
 
 .buy-btn:hover{
     background-color: #ddd;
+    transition: 0.3s ease;
 }
+
 
 .hero-images{
     width: 50%;
