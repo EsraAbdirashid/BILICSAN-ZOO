@@ -38,6 +38,7 @@ body{
 
 .nav-links a:hover{
     color: #1b5e20;
+    text-decoration: underline;
 }
 
 .ticket-btn{
@@ -203,4 +204,8 @@ body{
 
 .stat-card:hover{
     transform: translateY(-10px);
+}
+
+.h{
+    text-decoration: underline;
 }
