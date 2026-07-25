@@ -189,3 +189,6 @@ body{
     transition: 0.3s ease;
 }
 
+.stat-card:hover{
+    transform: translateY(-10px);
+}
