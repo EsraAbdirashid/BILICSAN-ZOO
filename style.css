@@ -157,3 +157,9 @@ body{
     text-align: center;
 }
 
+.stat-card h2{
+    color: #0d5c2f;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
