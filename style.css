@@ -169,13 +169,13 @@ body{
   
 }
 
-.stat-card h2{
+.stat-info h2{
     margin: 0;
     color: #111;
     font-size: 35px;
 }
 
-.stat-card p{
+.stat-info p{
     margin: 5px 0 0;
     color: #555;
     font-size: 18px;
