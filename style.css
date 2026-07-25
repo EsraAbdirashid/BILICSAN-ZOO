@@ -164,16 +164,6 @@ body{
     margin-bottom: 15px;
 }
 
-.stat-card:not(:last-child)::after{
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 20%;
-    height: 60%;
-    width: 1px;
-    background: #ddd;
-}
-
 .stat-card h2{
     color: #0d5c2f;
     font-size: 35px;
@@ -183,5 +173,15 @@ body{
 .stat-card p{
     color: #555;
     font-size: 18px;
+}
+
+.stat-card:not(:last-child)::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 20%;
+    height: 60%;
+    width: 1px;
+    background: #ddd;
 }
 
