@@ -105,14 +105,17 @@ body{
    font-weight: 600
 }
 
+.explore-btn{
+    background-color: #0d5c2f;
+    color: white;
+}
 .buy-btn{
-    background-color: white;
-    border: 2px solid #1b5e20;
+    border: 2px solid #0d5c2f;
+   color: #0d5c2f;
 }
 
 .hero-images{
-    width: 55px;
-    text-align: center;
+    
 }
 
 .hero-images img{
