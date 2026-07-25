@@ -86,9 +86,11 @@ body{
 }
 
 .description{
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 30px;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 30px;
+
 }
 
 .hero-buttons{
