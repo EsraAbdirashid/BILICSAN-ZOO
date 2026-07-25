@@ -185,3 +185,7 @@ body{
     background: #ddd;
 }
 
+.stat-card{
+    transition: 0.3s ease;
+}
+
