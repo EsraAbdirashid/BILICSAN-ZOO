@@ -64,8 +64,8 @@ body{
    background-image: linear-gradient(
     rgba(255,255,255,.35),
    rgba(255,255,255,.35), 
-   ),
-   url("images/background_trees.webp");
+),
+   url("./images/background_trees.webp");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
