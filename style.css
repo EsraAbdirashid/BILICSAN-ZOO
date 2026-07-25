@@ -61,7 +61,14 @@ body{
    justify-content: space-between;
    align-items: center;
    padding: 70px 8%;
-   background: #f8f4eb;
+   background-image: linear-gradient(
+    rgba(255,255,255,.35),
+   rgba(255,255,255,.35), 
+   )
+   url("images/background_trees.webp");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
 .hero-content{
