@@ -130,6 +130,13 @@ body{
    color: #0d5c2f;
 }
 
+.explore-btn:hover{
+    background-color: #0b6d35;
+    transition: 0.3s ease;
+}
+
+
+
 .hero-images{
     width: 50%;
     display: flex;
