@@ -151,22 +151,26 @@ body{
     align-items: center;
     padding: 30px;
     box-shadow: 0 10px 30px rgba(0,0,0,.15);
+    gap: 20px;
 }
 
 
 .stat-card{
+    display: flex;
     text-align: center;
-    position: relative;
+    gap: 20px;
+    justify-content: center;
     flex: 1;
 }
 
 .stat-card i{
     font-size: 35px;
     color: #0d5c2f;
-    margin-bottom: 15px;
+  
 }
 
 .stat-card h2{
+    margin: 0;
     color: #0d5c2f;
     font-size: 35px;
     margin-bottom: 10px;
