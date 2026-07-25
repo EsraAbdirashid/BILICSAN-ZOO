@@ -163,3 +163,7 @@ body{
     margin-bottom: 10px;
 }
 
+.stat-card p{
+    color: #555;
+    font-size: 18px;
+}
