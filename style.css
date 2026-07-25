@@ -168,6 +168,10 @@ body{
     color: #0d5c2f;
   
 }
+.stat-info{
+    display: flex;
+    flex-direction: column;
+}
 
 .stat-info h2{
     margin: 0;
