@@ -75,8 +75,6 @@ body{
     width: 45%;
 }
 
-
-
 .welcome{
   color: #0d5c2f;
   font-weight: 600;
@@ -126,7 +124,7 @@ body{
     color: white;
 }
 .buy-btn{
-    border: 2px solid #0d5c2f;
+   border: 2px solid #0d5c2f;
    color: #0d5c2f;
 }
 
