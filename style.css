@@ -122,6 +122,7 @@ body{
 
 .hero-images img{
    width: 100%;
-   max-width: 650px;
+   max-width: 750px;
+   transform: scale(1.2);
 }
 
