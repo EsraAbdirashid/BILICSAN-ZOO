@@ -98,9 +98,11 @@ body{
     gap: 20px;
 }
 
-.explore-btn{
-    background-color: #1b5e20;
-    color: white;
+.explore-btn .buy-btn{
+   text-decoration: none;
+   padding: 15px 30px;
+   border-radius: 10px;
+   font-weight: 600
 }
 
 .buy-btn{
