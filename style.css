@@ -150,6 +150,10 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 30px;
-    box-shadow: 0 10px 30px rgba(0,0,0, .15);
-
+    box-shadow: 0 10px 30px rgba(0,0,0,.15);
 }
+
+.stat-card{
+    text-align: center;
+}
+
