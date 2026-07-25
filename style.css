@@ -55,11 +55,13 @@ body{
 }
 
 .hero{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px;
-    background-color: #dff5dc;
+   width: 100;
+   min-height: 90vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 70px 8%;
+   background: #f8f4eb;
 }
 
 .hero-content{
@@ -103,12 +105,13 @@ body{
 }
 
 .hero-images{
-    width: 50px;
+    width: 55px;
     text-align: center;
 }
 
 .hero-images img{
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
+    height: auto;
 }
 
