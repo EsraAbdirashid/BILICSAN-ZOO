@@ -115,12 +115,13 @@ body{
 }
 
 .hero-images{
-    
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-images img{
-    width: 100%;
-    max-width: 800px;
-    height: auto;
+   width: 100%;
+   max-width: 650px;
 }
 
