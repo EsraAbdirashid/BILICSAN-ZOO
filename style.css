@@ -156,6 +156,8 @@ body{
 
 .stat-card{
     text-align: center;
+    position: relative;
+    flex: 1;
 }
 
 .stat-card i{
@@ -183,6 +185,7 @@ body{
     height: 60%;
     width: 1px;
     background: #ddd;
+    pointer-events: none;
 }
 
 .stat-card{
