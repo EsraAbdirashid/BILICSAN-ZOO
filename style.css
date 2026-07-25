@@ -153,9 +153,18 @@ body{
     box-shadow: 0 10px 30px rgba(0,0,0,.15);
 }
 
+
 .stat-card{
     text-align: center;
 }
+
+.stat-card i{
+    font-size: 35px;
+    color: #0d5c2f;
+    margin-bottom: 15px;
+}
+
+
 
 .stat-card h2{
     color: #0d5c2f;
@@ -167,3 +176,4 @@ body{
     color: #555;
     font-size: 18px;
 }
+
