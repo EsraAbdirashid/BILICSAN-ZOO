@@ -316,3 +316,10 @@ body{
               margin: 0;
 }
 
+.features-card p{
+    font-size: 12px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+}
+
