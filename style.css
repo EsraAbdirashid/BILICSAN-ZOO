@@ -244,3 +244,9 @@ body{
     flex: 1;
 }
 
+.about-content h5{
+    color: #1b5e20;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
