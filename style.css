@@ -303,3 +303,9 @@ body{
     border-right: none;
 }
 
+.features-card i{
+    font-size: 28px;
+    color: #185b2a;
+    margin-bottom: 5px;
+}
+
