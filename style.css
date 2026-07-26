@@ -298,3 +298,8 @@ body{
     flex-direction: column;
     gap: 8px;
 }
+
+.features-card:last-child{
+    border-right: none;
+}
+
