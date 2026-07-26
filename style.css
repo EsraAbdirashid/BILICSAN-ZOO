@@ -281,3 +281,12 @@ body{
     background-color: #25802b;
 }
 
+.features{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 25px;
+
+}
+
