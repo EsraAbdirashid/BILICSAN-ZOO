@@ -290,3 +290,11 @@ body{
 
 }
 
+.features-card {
+    padding: 10px 25px;
+    text-align: left;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
