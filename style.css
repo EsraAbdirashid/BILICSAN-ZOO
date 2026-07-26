@@ -238,7 +238,9 @@ body{
 
 .about-image img {
     width: 100%;
-    border-radius: 20px;
+    height: 420px;
+    object-fit: cover;
+   clip-path: ellipse(85% 100% at 100% 50%);
 }
 
 .about-content {
