@@ -231,3 +231,7 @@ body{
     gap: 60px;
 }
 
+.about-image{
+    flex: 1;
+}
+
