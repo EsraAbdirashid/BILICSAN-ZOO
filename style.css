@@ -222,3 +222,12 @@ body{
 .h{
     text-decoration: underline;
 }
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 80px;
+    gap: 60px;
+}
+
