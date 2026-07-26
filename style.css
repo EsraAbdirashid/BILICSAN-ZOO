@@ -309,3 +309,10 @@ body{
     margin-bottom: 5px;
 }
 
+.features-card h3{
+              font-size: 15px;
+              color: #1b1b1b;
+              font-weight: 700;
+              margin: 0;
+}
+
