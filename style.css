@@ -277,3 +277,6 @@ body{
     font-weight: 400;
     cursor: pointer;
 }
+.button:hover{
+    background-color: #25802b;
+}
