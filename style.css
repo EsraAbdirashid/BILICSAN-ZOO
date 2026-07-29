@@ -344,3 +344,9 @@ body{
     color: #185b2a;
 }
 
+.feature-title h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+    margin: 0;
+}
