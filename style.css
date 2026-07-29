@@ -323,5 +323,11 @@ body{
     margin: 0;
 } */
 
+.features-card{
+    padding: 10px 25px;
+    border-right: 1px solid #ddd;
+}
 
-
+.features-card:last-child{
+    border-right: none;
+}
