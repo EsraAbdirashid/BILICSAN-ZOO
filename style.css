@@ -339,3 +339,8 @@ body{
     margin-bottom: 10px;
 }
 
+.feature-title i{
+    font-size: 22px;
+    color: #185b2a;
+}
+
