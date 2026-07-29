@@ -350,3 +350,11 @@ body{
     color: #222;
     margin: 0;
 }
+
+.feature-title p{
+    font-size: 13px;
+    line-height: 1.6;
+    color: #666;
+    margin: 0;
+}
+
