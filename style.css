@@ -227,8 +227,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 80px;
-    gap: 60px;
+    padding: 60px 80px;
+    gap: 40px;
 }
 
 .about-image {
@@ -284,7 +284,7 @@ body{
 .features{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 25px;
+    margin-top: 0;
     border-top: 1px solid #ddd;
     padding-top: 20px;
 
@@ -352,8 +352,8 @@ body{
 }
 
 .feature-title p{
-    font-size: 13px;
-    line-height: 1.6;
+    font-size: 6px;
+    line-height: 1.1;
     color: #666;
     margin: 0;
 }
