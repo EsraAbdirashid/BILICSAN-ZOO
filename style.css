@@ -421,3 +421,8 @@ body{
     text-align: center;
     margin-top: 35px;
 }
+
+.animal-btn a{
+    text-decoration: none;
+    font-weight: 400;
+}
