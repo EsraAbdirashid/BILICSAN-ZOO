@@ -362,3 +362,10 @@ body{
     cursor: pointer;
     transition: .3s;
 }
+
+.animal-filter .active,
+.animal-filter button:hover{
+    background: #1b5e20;
+    color: #fff;
+    border-color: #1b5e20;
+}
