@@ -290,39 +290,6 @@ body{
 
 }
 
-/* .features-card {
-    padding: 10px 25px;
-    text-align: left;
-    border-right: 1px solid #ddd;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.features-card:last-child{
-    border-right: none;
-}
-
-.features-card i{
-    font-size: 28px;
-    color: #185b2a;
-    margin-bottom: 5px;
-}
-
-.features-card h3{
-              font-size: 15px;
-              color: #1b1b1b;
-              font-weight: 700;
-              margin: 0;
-}
-
-.features-card p{
-    font-size: 12px;
-    line-height: 1.0;
-    color: #555;
-    margin: 0;
-} */
-
 .features-card{
     padding: 10px 25px;
     border-right: 1px solid #ddd;
