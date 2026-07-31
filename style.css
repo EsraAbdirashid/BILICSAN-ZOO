@@ -394,3 +394,8 @@ body{
     object-fit: cover;
 }
 
+.animal-card h3{
+    font-size: 20px;
+    padding: 15px 15px 5px;
+    color: #222;
+}
