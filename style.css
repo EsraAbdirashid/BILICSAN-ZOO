@@ -355,5 +355,10 @@ body{
 }
 
 .animal-filter button{
-    
+    padding: 10px 25px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .3s;
 }
