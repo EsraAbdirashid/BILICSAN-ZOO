@@ -369,3 +369,10 @@ body{
     color: #fff;
     border-color: #1b5e20;
 }
+
+.animal-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+}
+
