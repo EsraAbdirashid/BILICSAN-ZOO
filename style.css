@@ -384,3 +384,7 @@ body{
     transition: .3s;
 }
 
+.animal-card:hover{
+    transform: translateY(-8px);
+}
+
