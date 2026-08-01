@@ -475,4 +475,9 @@ body{
     font-size: 14px;
 }
 
+.ticket-card ul{
+    list-style: none;
+    margin: 25px 0;
+    padding: 0;
+}
 
