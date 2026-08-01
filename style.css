@@ -525,4 +525,15 @@ body{
     margin-bottom: 10px;
 }
 
+.opening-hours span{
+    color: #eee;
+}
+
+.opening-hours img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
 
