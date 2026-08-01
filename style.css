@@ -485,4 +485,15 @@ body{
     margin: 12px 0;
     color: #555;
 }
+.ticket-card ul li i{
+    color: #1b5e20;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.ticket-card .button{
+    display: inline-block;
+    text-decoration: none;
+}
+
 
