@@ -470,4 +470,9 @@ body{
     color: #1b5e20;
     margin-bottom: 10px;
 }
+.ticket-card span{
+    color: #666;
+    font-size: 14px;
+}
+
 
