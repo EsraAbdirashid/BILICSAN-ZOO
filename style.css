@@ -458,3 +458,10 @@ body{
     color: #1b5e20;
     margin-bottom: 15px;
 }
+
+.ticket-card h3{
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
