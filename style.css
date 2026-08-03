@@ -597,3 +597,7 @@ body{
     transition: .3s;
 }
 
+.socialmedia-icons a:hover{
+    background: #0f4d1f;
+}
+
