@@ -601,3 +601,8 @@ body{
     background: #0f4d1f;
 }
 
+.contact-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
