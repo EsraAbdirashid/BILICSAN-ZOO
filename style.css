@@ -708,3 +708,12 @@ body{
     line-height: 1.6;
 }
 
+.newsletter input{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
