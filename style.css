@@ -654,3 +654,9 @@ body{
     border-radius: 12px;
 }
 
+.footer{
+    background: #0f4d1f;
+    color: #fff;
+    padding: 60px 80px 20px;
+    margin-top: 80px;
+}
