@@ -679,3 +679,9 @@ body{
     font-size: 15px;
 }
 
+.footer-links h3, 
+.newsletter h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
