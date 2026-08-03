@@ -717,3 +717,8 @@ body{
     outline: none;
 }
 
+.newsletter .button{
+    width: 100%;
+    border: none;
+    text-decoration: none;
+}
