@@ -702,3 +702,9 @@ body{
     padding-left: 6px;
 }
 
+.newsletter p{
+    color: #ddd;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
