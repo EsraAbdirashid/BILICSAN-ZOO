@@ -607,9 +607,16 @@ body{
     gap: 15px;
 }
 
-.contact-form input 
-.contact-form textarea{
+.contact-form input{
     padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+.contact-form textarea{
+     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
     outline: none;
