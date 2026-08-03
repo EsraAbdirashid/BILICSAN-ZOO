@@ -554,3 +554,12 @@ body{
     flex-direction: column;
     gap: 25px;
 }
+
+
+.info-box{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+
