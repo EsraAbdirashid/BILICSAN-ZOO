@@ -542,4 +542,11 @@ body{
     background: #f8f8f2;
 }
 
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.4fr;
+    gap: 25px;
+    margin-top: 40px;
+}
+
 
