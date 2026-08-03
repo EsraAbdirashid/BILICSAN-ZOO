@@ -673,3 +673,9 @@ body{
     margin-bottom: 20px;
 }
 
+.footer-about p{
+    color: #ddd;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
