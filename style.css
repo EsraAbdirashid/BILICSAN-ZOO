@@ -730,3 +730,7 @@ body{
     padding-top: 20px;
 }
 
+.footer-bottom p{
+    color: #ddd;
+    font-size: 14px;
+}
