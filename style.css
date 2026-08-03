@@ -663,9 +663,10 @@ body{
 
 
 .footer-container{
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1.3fr;
-    gap: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 40px;
 }
 
 .footer-about img{
