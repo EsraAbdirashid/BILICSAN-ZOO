@@ -562,4 +562,10 @@ body{
     align-items: flex-start;
 }
 
+.info-box i{
+    font-size: 22px;
+    color: #1b5e20;
+    margin-top: 5px;
+}
+
 
