@@ -667,3 +667,9 @@ body{
     grid-template-columns: 1.5fr 1fr 1fr 1.3fr;
     gap: 50px;
 }
+
+.footer-about img{
+    width: 140px;
+    margin-bottom: 20px;
+}
+
