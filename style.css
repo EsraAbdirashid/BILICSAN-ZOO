@@ -697,3 +697,8 @@ body{
     transition: .3s;
 }
 
+.footer-links a:hover{
+    color: #fff;
+    padding-left: 6px;
+}
+
