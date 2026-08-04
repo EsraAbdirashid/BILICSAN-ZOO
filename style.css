@@ -699,6 +699,7 @@ body{
 .footer-links{
     display: flex;
     flex-direction: column;
+    border-right: 1px solid #ddd;
 }
 
 .footer-links a{
