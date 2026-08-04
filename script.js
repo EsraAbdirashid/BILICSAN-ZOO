@@ -124,6 +124,12 @@ contactForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
     successMessage.textContent = "✅ Message sent successfully!";
+    successMessage.style.display = "block";
 
     contactForm.reset();
+
+    setTimeout(() => {
+        successMessage.style.display = "none";
+    }, 3000);
+
 });
