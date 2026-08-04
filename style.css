@@ -671,7 +671,7 @@ body{
 
 .footer-about img{
     width: 140px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .footer-about p{
@@ -718,11 +718,12 @@ body{
     outline: none;
 }
 
-.newsletter .button{
+.newsletter button{
   width: 100%;
   padding: 14px;
   border-radius: 8px;
   margin-top: 10px;
+  background: #25b865;
 }
 
 .footer-bottom {
