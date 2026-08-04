@@ -1146,4 +1146,17 @@ section{
     transform: translateY(-10px);
 }
 
+/* Button Hover */
+.button,
+.buy-btn,
+.explore-btn,
+.ticket-btn {
+    transition: 0.3s ease;
+}
 
+.button:hover,
+.buy-btn:hover,
+.explore-btn:hover,
+.ticket-btn:hover {
+    transform: translateY(-3px);
+}
