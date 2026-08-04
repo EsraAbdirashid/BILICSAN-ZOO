@@ -1119,4 +1119,31 @@ section{
     transform: translateY(-5px);
 }
 
+/* Animal Card Hover */
+.animal-card {
+    transition: 0.3s ease;
+}
+
+.animal-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Features Hover */
+.features-card {
+    transition: 0.3s ease;
+}
+
+.features-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Ticket Hover */
+.ticket-card {
+    transition: 0.3s ease;
+}
+
+.ticket-card:hover {
+    transform: translateY(-10px);
+}
+
 
