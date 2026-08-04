@@ -117,17 +117,13 @@ backToTop.addEventListener("click", () => {
 });
 
 // ===== Contact Form =====
-
 const contactForm = document.getElementById("contactForm");
 const successMessage = document.getElementById("successMessage");
 
-contactForm.addEventListener("submit", function(e){
-
+contactForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    successMessage.innerHTML = "✅ Message sent successfully!";
-    successMessage.style.display = "block";
+    successMessage.textContent = "✅ Message sent successfully!";
 
     contactForm.reset();
-
 });
