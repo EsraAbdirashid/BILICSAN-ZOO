@@ -1129,3 +1129,9 @@ section{
 .stat-card:hover {
     transform: translateY(-8px) !important;
 }
+
+.logo img{
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+}
