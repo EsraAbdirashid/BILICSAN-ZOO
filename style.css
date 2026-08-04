@@ -927,3 +927,9 @@ body{
     color:#ddd;
 
 }
+
+.logo img {
+    width: 105px;
+    height: 105px;
+    object-fit: contain;
+}
