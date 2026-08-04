@@ -125,14 +125,22 @@ backToTop.addEventListener("click", () => {
 
 // ===== Contact Form =====
 
+// ===== Contact Form =====
+
 const contactForm = document.getElementById("contactForm");
+const successMessage = document.getElementById("successMessage");
 
 contactForm.addEventListener("submit", (e) => {
 
     e.preventDefault();
 
-    alert("✅ Message sent successfully!");
+    successMessage.style.display = "block";
+    successMessage.textContent = "✅ Message sent successfully!";
 
     contactForm.reset();
+
+    setTimeout(() => {
+        successMessage.style.display = "none";
+    }, 3000);
 
 });
