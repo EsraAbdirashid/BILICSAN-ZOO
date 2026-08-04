@@ -1135,3 +1135,10 @@ section{
     height: auto;
     object-fit: contain;
 }
+#successMessage{
+    color: #1b5e20;
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: center;
+    display: none;
+}
