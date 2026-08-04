@@ -1087,76 +1087,10 @@ section{
 }
 
 
-/* ===== Back To Top Button ===== */
-
-#backToTop {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-
-    width: 45px;
-    height: 45px;
-
-    border: none;
-    border-radius: 50%;
-
-    background: #1f5d2f;
-    color: white;
-
-    font-size: 18px;
-    cursor: pointer;
-
-    display: none;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 999;
-
-    transition: 0.3s ease;
-}
-
-#backToTop:hover {
-    transform: translateY(-5px);
-}
-
-/* Animal Card Hover */
-.animal-card {
-    transition: 0.3s ease;
-}
-
-.animal-card:hover {
-    transform: translateY(-10px);
-}
-
-/* Features Hover */
-.features-card {
-    transition: 0.3s ease;
-}
-
-.features-card:hover {
-    transform: translateY(-8px);
-}
-
-/* Ticket Hover */
-.ticket-card {
-    transition: 0.3s ease;
-}
-
+.animal-card:hover,
+.features-card:hover,
 .ticket-card:hover {
-    transform: translateY(-10px);
+    transform: none;
 }
 
-/* Button Hover */
-.button,
-.buy-btn,
-.explore-btn,
-.ticket-btn {
-    transition: 0.3s ease;
-}
 
-.button:hover,
-.buy-btn:hover,
-.explore-btn:hover,
-.ticket-btn:hover {
-    transform: translateY(-3px);
-}
