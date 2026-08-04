@@ -663,6 +663,13 @@ body{
     padding: 60px 80px 20px;
     margin-top: 80px;
 }
+.footer{
+    background: linear-gradient(rgba(10,60,2,5,0.95),
+    rgba(10,60,25,0.95)),
+    url("./images/footer-picture.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 
 .footer-container{
@@ -673,7 +680,7 @@ body{
 }
 
 .footer-about img{
-    width: 140px;
+    width: 100px;
     margin-bottom: 15px;
 }
 
