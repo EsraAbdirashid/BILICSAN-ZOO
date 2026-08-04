@@ -86,3 +86,15 @@ window.addEventListener("click", (e) => {
         ticketModal.classList.remove("active");
     }
 });
+
+const bookingForm = document.querySelector(".booking-form");
+
+bookingForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    alert("✅ Ticket booked successfully!");
+
+    bookingForm.reset();
+
+    ticketModal.classList.remove("active");
+});
