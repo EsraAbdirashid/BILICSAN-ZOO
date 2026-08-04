@@ -1086,13 +1086,35 @@ section{
     color: #1f5d2f;
 }
 
+/* Back To Top Button */
 
-/* .animal-card:hover,
-.features-card:hover,
-.ticket-card:hover {
-    transform: none;
-} */
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
 
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #1b5e20;
+    color: white;
+
+    font-size: 18px;
+    cursor: pointer;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 9999;
+}
+
+#backToTop:hover {
+    background: #145a1a;
+}
 
 /* Fix AOS and Hover conflict */
 
