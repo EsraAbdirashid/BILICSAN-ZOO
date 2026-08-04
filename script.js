@@ -48,3 +48,41 @@ filterButtons.forEach((button) => {
 
     });
 });
+
+
+// ===== Ticket Booking Modal =====
+
+const ticketModal = document.getElementById("ticketModal");
+const closeModal = document.querySelector(".close-modal");
+
+// Navbar Buy Tickets button
+const navTicketBtn = document.querySelector(".ticket-btn");
+
+// All Buy Now buttons
+const buyNowBtns = document.querySelectorAll(".ticket-card .button");
+
+// Open modal from navbar
+navTicketBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    ticketModal.classList.add("active");
+});
+
+// Open modal from ticket cards
+buyNowBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        ticketModal.classList.add("active");
+    });
+});
+
+// Close with X
+closeModal.addEventListener("click", () => {
+    ticketModal.classList.remove("active");
+});
+
+// Close when clicking outside
+window.addEventListener("click", (e) => {
+    if (e.target === ticketModal) {
+        ticketModal.classList.remove("active");
+    }
+});
