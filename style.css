@@ -1000,4 +1000,88 @@ section{
 
 }
 
+/* ===== Ticket Booking Modal ===== */
 
+.ticket-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+}
+
+.ticket-modal.active {
+    display: flex;
+}
+
+.modal-content {
+    width: 90%;
+    max-width: 450px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    position: relative;
+
+    animation: popup .35s ease;
+}
+
+@keyframes popup {
+    from {
+        opacity: 0;
+        transform: scale(.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.modal-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1f5d2f;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.booking-form input,
+.booking-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.booking-form input:focus,
+.booking-form select:focus {
+    border-color: #1f5d2f;
+}
+
+.booking-form button {
+    width: 100%;
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #444;
+    transition: .3s;
+}
+
+.close-modal:hover {
+    color: #1f5d2f;
+}
