@@ -66,7 +66,7 @@ body{
         rgba(255, 255, 255, 0.15),
         rgba(255, 255, 255, 0.15)
     ),
-    url("./images/hero-2-image.jpeg");
+    url("./images/hero-image.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,6 +80,7 @@ body{
 .welcome{
   color: #0d5c2f;
   font-weight: 600;
+  font-size: 24px;
 }
 
 .hero h1{
