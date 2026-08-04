@@ -1087,10 +1087,23 @@ section{
 }
 
 
-.animal-card:hover,
+/* .animal-card:hover,
 .features-card:hover,
 .ticket-card:hover {
     transform: none;
+} */
+
+
+/* Fix AOS and Hover conflict */
+
+.animal-card,
+.ticket-card,
+.stat-card {
+    transition: transform .3s ease, box-shadow .3s ease;
 }
 
-
+.animal-card:hover,
+.ticket-card:hover,
+.stat-card:hover {
+    transform: translateY(-8px) !important;
+}
