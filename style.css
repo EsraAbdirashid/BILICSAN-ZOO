@@ -959,3 +959,12 @@ section{
     }
 
 }
+
+.menu-btn{
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+
+}
